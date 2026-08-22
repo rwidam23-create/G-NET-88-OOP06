@@ -26,6 +26,16 @@ namespace G_NET_88_OOP06
             //where you require complete independence between them.
             #endregion
 
+            #region Question03
+            // (a) static :belong to a class not object
+            //instance field:variable for which each object gets its own private copy, completely separate from the other objects.
+            //(b)static Method:The class method calls her by the class name,NO
+            //(c)A static constructor: is a special constructor used to initialize a class's static members (such as static fields),
+            //rather than a specific object, execute one time.
+            //(d)A static class :is a class where all its members must be static—meaning it contains absolutely no instance fields or
+            //instance methods; everything inside it belongs to the class itself, not to an object, cannot do object.
+            #endregion
+
         }
     }
 }
