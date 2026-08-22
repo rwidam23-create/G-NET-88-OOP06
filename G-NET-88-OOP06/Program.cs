@@ -36,6 +36,15 @@ namespace G_NET_88_OOP06
             //instance methods; everything inside it belongs to the class itself, not to an object, cannot do object.
             #endregion
 
+            #region Question04
+            //(a)An extension method allows you to "add" a new method to an existing class—even
+            //if you don't own the class or if it is a built-in type like `int` or `string`—
+            //without modifying the original class itself and without using inheritance.
+            //(b)this 
+            //(c)static class
+            //(d)NO
+            #endregion
+
         }
     }
 }
