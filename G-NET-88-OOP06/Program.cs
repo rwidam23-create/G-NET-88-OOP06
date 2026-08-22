@@ -14,6 +14,18 @@ namespace G_NET_88_OOP06
             //Copying the actual object: You create a completely new location in memory and copy the values ​​into it,
             //resulting in two entirely independent objects where a change to one does not affect the other at all.
             #endregion
+
+            #region Question02
+            //(a)create A new object and copied all value type fields.
+            //(b)create A new object and recursively copies all nested objects.
+            //(c)refrence still shired between original and copy.
+            //(d)The reference members are actually copied (a new address, a new object, completely independent).
+            //(e)Use a deep copy when it is crucial that modifications to one copy do not affect the other—specifically, in any scenario involving an
+            //object that shares sensitive reference members
+            //(such as an address, customer details, or payment data)
+            //where you require complete independence between them.
+            #endregion
+
         }
     }
 }
