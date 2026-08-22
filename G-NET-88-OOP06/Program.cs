@@ -45,6 +45,14 @@ namespace G_NET_88_OOP06
             //(d)NO
             #endregion
 
+            #region Question05
+            //(a)A partial class is a single class whose definition can be split across multiple files, rather than writing the entire class in one file.
+            //You use the `partial` keyword before `class` in each part.
+            //(b)organize large classes ,improve maintability and readibilty.
+            //(c)decleration without an implementation in the class,it can be optionally implemented in onther part.
+            //(d)There's no problem, and no error. The compiler simply removes the entire declaration from the final code during compilation, as if it were never written at all—not only the method itself, but any calls to it are also automatically removed.
+            #endregion
+
         }
     }
 }
